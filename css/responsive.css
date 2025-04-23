@@ -1,0 +1,27 @@
+@media only screen and(max-width: 768px) {
+    /*forme de smart phone*/
+}
+
+@media only screen and(min-width: 768px) and (max-width: 991) {
+    /* forme de tablet*/
+}
+
+@media only screen and(min-width: 992px) and (max-width: 1023px) {
+    /* forme de laptope*/
+}
+
+@media only screen and(min-width: 1024px) {
+    /*forme de desktop*/
+}
+@media screen and (min-width: 320px) {
+    /* forme de sm*/
+}
+@media screen and (min-width: 375px){
+    /*forme de md*/
+}
+@media screen and (min-width: 425px){
+   
+}
+@media screen and (min-width: 1440px){
+    
+}
