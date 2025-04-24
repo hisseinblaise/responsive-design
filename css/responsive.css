@@ -1,27 +1,72 @@
-@media only screen and(max-width: 768px) {
-    /*forme de smart phone*/
+/* pour S Ecrans(320pxS)*/
+ @media screen and (min-width: 320px) {
+     .features{
+       
+       padding: 1.3rem;
+       flex-direction:column;
+       flex-wrap: wrap;
+       background-color: yellow;
+     }
+ }
+ 
+ /* pour L mobile de (375px)*/
+ @media screen and (min-width: 375px) {
+     .feature{
+       flex-direction: row;
+       flex-wrap: wrap;
+       font-size: 1.1rem;
+     }
+          .features {
+        background-color: aquamarine;
 }
-
-@media only screen and(min-width: 768px) and (max-width: 991) {
-    /* forme de tablet*/
-}
-
-@media only screen and(min-width: 992px) and (max-width: 1023px) {
-    /* forme de laptope*/
-}
-
-@media only screen and(min-width: 1024px) {
-    /*forme de desktop*/
-}
-@media screen and (min-width: 320px) {
-    /* forme de sm*/
-}
-@media screen and (min-width: 375px){
-    /*forme de md*/
-}
-@media screen and (min-width: 425px){
-   
-}
-@media screen and (min-width: 1440px){
-    
-}
+ }
+ 
+   /* pour M mobile (425px) */
+   @media screen and (min-width: 425px) {
+     .features {
+       flex-direction: row;
+       flex-wrap: wrap;
+       grid-template-rows: auto 1fr auto ;
+       background-color: red;
+     }
+ 
+     .feature {
+       flex: 1 1 calc(50% -1rem);
+     }
+   }
+ 
+   /* laptop avec écran(1024px)*/
+   @media screen and (min-width: 1024px) {
+     .site.header{
+      padding: 2rem;
+      flex: auto;
+     }
+     .site-nav ul{
+       gap: 2rem;
+     }
+     .features{
+       font-size: 1.1em;
+       background-color: aqua;
+     }
+   }
+ 
+   /* laptop moyen (768px)*/
+   @media screen and (min-width:768px) {
+     .features{
+      background-color:blueviolet;
+       flex-direction: row;
+       gap: 1.5rem;
+     justify-content: space-around;
+     margin-left: -10%;
+       justify-content: space-around;
+       margin-left: -10%;
+     }
+   }
+ 
+   /* laptop (1440px)*/
+   @media screen and (min-width: 1440px) {
+          .features {
+    background-color: chartreuse;
+     
+   }
+  }
