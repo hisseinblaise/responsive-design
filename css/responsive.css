@@ -5,7 +5,7 @@
        padding: 1.3rem;
        flex-direction:column;
        flex-wrap: wrap;
-       background-color: yellow;
+       background-color: rgb(0, 247, 255);
      }
  }
  
@@ -17,7 +17,7 @@
        font-size: 1.1rem;
      }
           .features {
-        background-color: aquamarine;
+        background-color: rgb(114, 230, 226);
 }
  }
  
@@ -27,7 +27,7 @@
        flex-direction: row;
        flex-wrap: wrap;
        grid-template-rows: auto 1fr auto ;
-       background-color: red;
+       background-color: rgb(138, 215, 224);
      }
  
      .feature {
@@ -53,7 +53,7 @@
    /* laptop moyen (768px)*/
    @media screen and (min-width:768px) {
      .features{
-      background-color:blueviolet;
+      background-color:rgb(134, 222, 223);
        flex-direction: row;
        gap: 1.5rem;
      justify-content: space-around;
@@ -66,7 +66,7 @@
    /* laptop (1440px)*/
    @media screen and (min-width: 1440px) {
           .features {
-    background-color: rgb(188, 90, 159);
+    background-color: rgb(130, 222, 219);
      
    }
   }
